@@ -9,7 +9,6 @@
 
     @vite('resources/js/app.js')
 
-    @yield('style')
 </head>
 
 <body>
@@ -17,11 +16,8 @@
         @include('components.header')
     </header>
 
-    <main>
-        <div>
-            @yield('content')
-        </div>
-    </main>
+        {{-- qui sarà trasportato il contenuto di ogni pagina, la quale partirà con un tag main --}}
+            @yield('main')
 </body>
 
 </html>
