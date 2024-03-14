@@ -1,18 +1,7 @@
-@use "./partials/variables" as *;
-@use "./partials/mixins" as *;
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+// Variables
+@import './partials/variables';
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    font-family: sans-serif;
-}
-
-
-
-li {
-    list-style-type: none;
-}
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';

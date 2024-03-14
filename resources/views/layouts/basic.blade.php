@@ -18,6 +18,8 @@
 
         {{-- qui sarà trasportato il contenuto di ogni pagina, la quale partirà con un tag main --}}
             @yield('main')
+
+            @vite(['resources/js/app.js'])
 </body>
 
 </html>
