@@ -20,15 +20,10 @@
 @endsection
 
 @section('content')
-    <h1>{{ $greeting }}</h1>
+    <h1>ciaoo</h1>
 
     <ul>
-        @foreach ($data as $element)
-            {{-- {{ dd($loop) }} --}}
-
-            <li>
-                {{ $element['name'] }}
-            </li>
-        @endforeach
+       
+       <li>ciao</li>
     </ul>
 @endsection
